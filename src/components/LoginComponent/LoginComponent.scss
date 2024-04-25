@@ -1,0 +1,15 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.loginContainer {
+    width: 50%;
+    max-height: 50%;
+    background-color: aqua;
+    border: 5px solid black;
+}

@@ -4,12 +4,105 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    position: relative;
 }
 
-.loginContainer {
-    width: 50%;
-    max-height: 50%;
-    background-color: aqua;
-    border: 5px solid black;
+.divisor {
+    position: absolute;
+    width: 33%;
+    height: 100vh;
+    z-index: 0;
+    background-color: rgba(24,235,182,1);
+    
+}
+
+.login-container {
+    width: 85%;
+    min-height: 85vh;
+    box-shadow: 0px 0px 35px rgba(0,0,0,0.5);
+    z-index: 1;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.first-column {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 50%;
+    }
+
+}
+
+.second-column {
+    min-height: 85vh;
+}
+
+.help {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em;
+    a {
+        margin-right: 2.5vw;
+        font-weight: bold;
+        color:inherit;
+    }
+}
+
+.login-title{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h3{
+        font-weight: bold;
+    }
+}
+.form {
+    padding-top: 5vw;
+
+    .form-fields {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .input {
+            width: 25vw !important;
+        }
+    }
+
+}
+
+.forgot {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        color: inherit;
+        margin-right: 17vw;
+        font-weight: bold;
+        font-size: small;
+    }
+}
+
+.login-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+
+    .button {
+        background-color:#18EBB6 ;
+        width: 25vw;
+        font-weight: bold;
+        padding: 1vw;
+    }
 }

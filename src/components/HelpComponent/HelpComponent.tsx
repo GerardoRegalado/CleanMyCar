@@ -5,7 +5,7 @@ import './HelpComponent.scss'
 export const HelpComponent = () => {
   return (
     <>
-    <section className="help">
+    <section className="help-section">
       <Grid columns={'two'}>
       <Grid.Row >
         <Grid.Column width={4}>

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background: -webkit-linear-gradient(180deg, #18EBB6,#fff);
+    background: linear-gradient(180deg, #18EBB6,#fff);
+
+}
+
+.home-text {
+    font-family: "Permanent Marker", system-ui;
+    font-weight: 400;
+    font-size: 5rem;
+}

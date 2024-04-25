@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://github.com/GerardoRegalado/CleanMyCar/assets/97474369/a16158cb-6d0b-4fa8-9e49-64b71ac9cedd" width="50%" style="margin-bottom: 10px"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# CleanMyCar Frontend Test
 
-In the project directory, you can run:
+This is a Frontend test applicaction made with React, typescript and Semantic UI presented for a technical test.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Client:** React, Webpack, Typescript, Semantic UI, SweetAlert2
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build`
+To watch the deployed version visit the following link:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[https://clean-my-car-jet.vercel.app/login](https://clean-my-car-jet.vercel.app/login)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run Locally
 
-### `npm run eject`
+Clone the project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  git clone https://github.com/GerardoRegalado/CleanMyCar
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  cd CleanMyCar
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm run start
+```
+
+
+## Authors
+
+- [@GerardoRegalado](https://www.github.com/GerardoRegalado)
+
+### Disclosure
+
+Does not use real email or password, this frontend test does not have been tested as a security matter.
